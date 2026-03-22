@@ -1,0 +1,31 @@
+# ⚡ Calculadora de Consumo de Energia
+
+Este é um projeto em Python que calcula o consumo mensal de energia elétrica de um aparelho e o custo estimado.
+
+## 🧠 Como funciona
+
+O programa solicita:
+
+* Nome do aparelho
+* Potência em watts (W)
+* Quantidade de horas de uso por dia
+
+Com base nessas informações, ele calcula:
+
+* Consumo mensal em kWh
+* Custo mensal estimado
+
+### 📊 Fórmula utilizada
+
+consumoMensal = (potencia * horasDia * 30) / 1000  
+custoMensal = consumoMensal * 0.70
+
+## 💻 Tecnologias utilizadas
+
+* Python
+
+## ▶️ Como executar
+
+1. Abra o arquivo no VS Code ou outro editor
+2. Execute o programa
+3. Insira os dados solicitados no terminal
